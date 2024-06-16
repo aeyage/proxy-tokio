@@ -99,7 +99,7 @@ use hyper::http::header::{InvalidHeaderValue, ToStrError};
 use hyper::http::uri::InvalidUri;
 use hyper::{Body, Error, Request, Response, Uri};
 use lazy_static::lazy_static;
-use std::net::{IpAddr, SocketAddr};
+use std::net::SocketAddr;
 use std::str::FromStr;
 use std::time::Instant;
 
